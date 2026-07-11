@@ -337,6 +337,118 @@ text-align:center;
 }
 
 
+/* ================= LIVE CODING ARENA ================= */
+
+.arena{
+
+    padding:90px 8%;
+
+    background:#eef4ff;
+
+    text-align:center;
+
+}
+
+.arena h2{
+
+    font-size:38px;
+
+    margin-bottom:15px;
+
+}
+
+.arena-subtitle{
+
+    color:#666;
+
+    max-width:720px;
+
+    margin:0 auto 50px;
+
+    line-height:1.8;
+
+}
+
+.arena-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:30px;
+
+}
+
+.arena-card{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:12px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.arena-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.arena-card i{
+
+    font-size:40px;
+
+    color:#2563eb;
+
+    margin-bottom:20px;
+
+}
+
+.arena-card h3{
+
+    margin-bottom:15px;
+
+}
+
+.arena-card p{
+
+    color:#666;
+
+    line-height:1.7;
+
+    margin-bottom:20px;
+
+}
+
+.arena-card span{
+
+    display:inline-block;
+
+    background:#dbeafe;
+
+    color:#1d4ed8;
+
+    padding:8px 16px;
+
+    border-radius:20px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+}
+
+.arena-btn{
+
+    margin-top:50px;
+
+}
+
 @media(max-width:900px){
 
 .menu{
@@ -371,4 +483,11 @@ gap:20px;
 
 }
 
+.arena-grid{
+
+    grid-template-columns:1fr;
+
 }
+
+}
+
