@@ -1,0 +1,3 @@
+i want to add a section in my web ,it has hero ,navbar ,some IT speaker part then footer .now give me suggest me what i can add part by part 
+
+Generate a modern "Live Coding Arena" section for a conference website called DevConf 2026. The section should include a heading, a short description, four event cards (Competitive Programming Finals, AI Code Challenge, Frontend Speed Build, and Bug Bounty Contest), each with an icon, title, brief description, and event time. Include a centered "Reserve Your Seat" button. The design should match a professional technology conference landing page using HTML and CSS.
